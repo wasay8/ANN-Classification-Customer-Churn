@@ -57,6 +57,3 @@ The model is a deep learning neural network saved in `model.h5`. It uses multipl
 
 After running `app.py`, the model will load, preprocess the data, and predict churn for new customer data.
 
----
-
-This version now includes the Streamlit link to access the app online. Let me know if further adjustments are needed!
