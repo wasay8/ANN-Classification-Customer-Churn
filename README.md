@@ -28,7 +28,7 @@ This project focuses on predicting customer churn using machine learning. The da
    ```
 4. Run the application locally:
    ```bash
-   python app.py
+   streamlit run app.py
    ```
 
 ## Web Application
