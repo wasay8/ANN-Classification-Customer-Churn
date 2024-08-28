@@ -10,6 +10,8 @@ This project focuses on predicting customer churn using machine learning. The da
 - **Label_Encoder_Gender.pkl**: A pickle file containing the label encoder for the 'Gender' feature.
 - **onehot_encoder_geo.pkl**: A pickle file containing the one-hot encoder for the 'Geography' feature.
 - **scaler.pkl**: A pickle file containing the scaler used for feature scaling.
+- **building_model.ipynb**: Jupyter notebook that contains the code for building and training the churn prediction model.
+- **prediction.ipynb**: Jupyter notebook for loading the trained model and making predictions on new data.
 - **requirements.txt**: Contains the list of dependencies and libraries required to run the project.
 
 ## Setup Instructions
@@ -53,7 +55,13 @@ The dataset (`Churn_Modelling.csv`) includes the following key features:
 
 The model is a deep learning neural network saved in `model.h5`. It uses multiple features such as geography, gender, age, balance, and tenure to predict whether a customer will churn.
 
+## Notebooks
+
+- **building_model.ipynb**: This notebook contains the code for building, training, and evaluating the churn prediction model using the dataset.
+- **prediction.ipynb**: This notebook loads the pre-trained model and demonstrates how to make predictions on new customer data.
+
 ## Usage
 
 After running `app.py`, the model will load, preprocess the data, and predict churn for new customer data.
+
 
