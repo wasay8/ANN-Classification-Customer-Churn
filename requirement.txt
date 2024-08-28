@@ -1,9 +1,0 @@
-ipykernel
-pandas
-numpy
-matplotlib
-scikit-learn
-tensorflow
-torch
-streamlit
-tensorboard
